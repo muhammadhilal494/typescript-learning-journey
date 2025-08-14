@@ -19,3 +19,11 @@ userId4 = "hilal";
 // boolean variable
 var isLoggedIn = true;
 isLoggedIn.valueOf();
+// any
+// let hero;
+var hero;
+function getHero() {
+    // return true;
+    return "Superman";
+}
+hero = getHero();
