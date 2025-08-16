@@ -25,3 +25,10 @@ function createUser1(user) {
     return { name: "", email: "", isActive: false };
 }
 createUser1({ name: "", email: "", isActive: false });
+var myUser1 = {
+    _id: "123",
+    name: "hilal",
+    email: "h@e.com",
+    isActive: false
+};
+myUser1.email = "hilal@exapmle.com";
