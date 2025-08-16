@@ -21,3 +21,7 @@ function createCourse() {
     // return {}
     return { name: "reactjs", price: 399 };
 }
+function createUser1(user) {
+    return { name: "", email: "", isActive: false };
+}
+createUser1({ name: "", email: "", isActive: false });

@@ -27,4 +27,19 @@ function createCourse(): {name: string, price: number} {
     return {name: "reactjs", price: 399}
 }
 
+
+type User = {
+    name: string,
+    email: string,
+    isActive: boolean,
+    // isActive: bool
+}
+
+function createUser1(user: User): User {
+    return {name: "", email: "", isActive: false}
+}
+
+createUser1({name: "", email: "", isActive: false});    
+
+
 export {};
