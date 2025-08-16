@@ -8,8 +8,19 @@ interface User {
     getCoupon(couponName: string, val: number): number; // method with parameters
 }
 
-const hilal: User = {
+interface User {
+    gitHubToken?: string; // optional property
+
+}
+
+interface Admin extends User {
+    role: "admin" | "superadmin"; // union type for role
+}
+
+const hilal: Admin = {
     dbId: 22,
+    gitHubToken: "github123",
+    role: "admin",
     email: "h@h.com",
     id: 1,
     startTrial: () => {

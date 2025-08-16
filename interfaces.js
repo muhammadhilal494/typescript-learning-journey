@@ -1,5 +1,7 @@
 var hilal = {
     dbId: 22,
+    gitHubToken: "github123",
+    role: "admin",
     email: "h@h.com",
     id: 1,
     startTrial: function () {
